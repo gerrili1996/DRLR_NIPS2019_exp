@@ -7,11 +7,11 @@ This folder contains the MATLAB source code for the implementation, and all the 
 ####  Installation Guide 
 
 1. Download YALMIP and IPOPT and add these packages in the root folder "__DRLR_NIPS_exp__" 
-  --Download link for YAMLIP: https://yalmip.github.io/download/ 
-  --Download link for IPOPT from OPTI toolbox:  https://www.inverseproblem.co.nz/OPTI/ 
+  -Download link for YAMLIP: https://yalmip.github.io/download/ 
+  -Download link for IPOPT from OPTI toolbox:  https://www.inverseproblem.co.nz/OPTI/ 
 2. Download the UCI adult dataset (a1a-a9a)
-  --Download link: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
-  --Add them into the folder '/dataset';  
+  -Download link: https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html
+  -Add them into the folder '/dataset';  
 3. To finish installation, run the install.m script to add the dependencies to the working directory of MATLAB. 
 
 #### Utilisation guide
