@@ -62,3 +62,7 @@ function output = LADMM(A,param)
     output.iter = iter; 
     output.objective = DRO_obj (A,x,b,N); 
 end 
+
+function objective = DRO_obj (A,x,b,N)
+	objective = sum(log(1+exp(-A*x)) + max(A*x-b,0))/N; 
+end
