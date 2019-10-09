@@ -1,10 +1,11 @@
 This folder contains the MATLAB source code for the implementation, and all the experiments in the paper,<br>
-"A First_Order Algorithmic Framework for Distributionally Robust  Logistic Regression" (__NeurIPS 2019__) <br>
+
+"A First-Order Algorithmic Framework for Distributionally Robust  Logistic Regression" (__NeurIPS 2019__) <br>
 By Jiajin Li, Sen Huang, Anthony Man-Cho So.
 - Contact: Jiajin Li 
 - If you have any questions, please feel free to contact "gerrili1996 at gmail.com".  
 
-===================================================================================
+================================================================================
 ####  Installation Guide 
 
 1. Download YALMIP and IPOPT and add these packages in the root folder "__DRLR_NIPS_exp__" <br>
