@@ -19,6 +19,7 @@ y = 2*y-1;
 data.x = x;
 data.y = y;
 A = (repmat(y, [d,1]).* x)';
+
 %% Real dataset from libsvm 
 % you need add your libsvm package path here. 
 % kappa = 1; 
@@ -46,6 +47,7 @@ ALPADMM_param.kappa = kappa;
 ALPADMM_param.lambda = 0.1; 
 ALPADMM_param.epsilon = epsilon; 
 ALPADMM_output = LP_ADMM(A, ALPADMM_param,1);
+
 %% LP-ADMM
 fprintf('\n -------------- LP-ADMM for DRLR -------------- \n')
 LPADMM_param.d = d;
@@ -60,6 +62,7 @@ LPADMM_param.gamma = 1;
 LPADMM_param.kappa = kappa;
 LPADMM_param.lambda = 0.1; 
 LPADMM_output = LP_ADMM(A, LPADMM_param,1);
+
 %% L-ADMM
 fprintf('\n --------------  Linearized ADMM  for DRLR ------------- \n')
 LADMM_param.d = d;
@@ -88,6 +91,7 @@ SADMM_param.lambda = 0.1;
 SADMM_param.tol = 1e-4; 
 SADMM_param.rho = 10; 
 SADMM_output = SADMM(A,SADMM_param);
+
 %% Subgradient 
 fprintf('\n --------------  Subgradient method for DRO ------------- \n')
 SG_param.d = d; 

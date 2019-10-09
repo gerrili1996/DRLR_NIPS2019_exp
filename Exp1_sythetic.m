@@ -1,6 +1,4 @@
-%% Compare our first-order algorithm framework with Yamlip Solver 
-% The Sythetic Dataset Random Generator comes from the following paper 
-%  "Distributionally robust Logisitic Regression -- NIPS 2015"   
+%% Compare our first-order algorithmic framework with Yamlip Solver on synthetic data
 % __author__ = 'Jiajin Li'
 % __email__ = 'gerrili1996@gmail.com'
 
