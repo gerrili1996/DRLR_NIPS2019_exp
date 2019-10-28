@@ -10,6 +10,7 @@ function yp = y_subproblem(rho,d1,d2,y0)
 
 % Method: Semismooth Newton Method, starting from y0
 % Notice that phi(y) is a function of y. For any y, the inner problem on z has closed-form solution.
+% Created by Zirui Zhou
 
 maxiter = 5000;
 tol = 1e-8;
